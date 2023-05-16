@@ -1,0 +1,193 @@
+@media (max-width: 500px) {
+  html {
+    /* font-family: "roboto", Courier New, Courier, monospace; */
+    color: black;
+  }
+
+  body {
+    background-image: url(../images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+  }
+
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 6rem;
+  }
+
+  .sign-up {
+    width: 23rem;
+    height: 3.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0 0 0 12px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+/* checkbox */
+
+  .checkbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .label {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #eee;
+    border: 1px solid #757575;
+  }
+
+  .label:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  input:checked ~ .checkmark {
+    background: #8e4e96;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 3px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+  }
+
+/* button */
+
+  button {
+    background-color: #8e4e96;
+    width: 23rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 60px 15px 60px;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00000040;
+  }
+
+  .btn-2 {
+    background-color: inherit;
+    color: black;
+    text-align: center;
+  }
+
+   /* .google-btn {
+    display: flex;
+    justify-content: space-evenly;
+  } */
+
+  a {
+    text-align: end;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  h6 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+
+  }
+
+  section {
+    display: flex;
+    padding: 2rem 0 2rem 0;
+  }
+
+  section > h6 {
+    color: #212121;
+    bottom: 0.4rem;
+    padding: 0 1.8px;
+    position: relative;
+    width: 78px;
+    height: 9px;
+  }
+
+  .line {
+    width: 9rem;
+    height: 1px;
+    background-color: black;
+  }
+}
