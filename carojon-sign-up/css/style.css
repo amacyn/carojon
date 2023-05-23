@@ -126,7 +126,7 @@
 
 /* button */
 
-  button {
+  .btn {
     background-color: #8e4e96;
     width: 23rem;
     height: 3.5rem;
@@ -139,30 +139,19 @@
     font-size: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     cursor: pointer;
     box-shadow: 0px 0px 10px #00000040;
   }
-
-   .google-btn {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
+    
   .btn-2 {
     background-color: inherit;
     color: black;
-    text-align: center;
-    width: 23rem;
-    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 
-  .btn-img{
-    position:absolute;
-    height: 1.5rem
-  }
 
   a {
     text-align: end;
