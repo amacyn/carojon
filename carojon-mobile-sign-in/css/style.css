@@ -29,7 +29,7 @@
     font-size: 15px;
   }
 
-  .main-content {
+  .main_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@
     padding: 3rem 6rem;
   }
 
-  .sign-up {
+  .sign_up {
     width: 23rem;
     height: 3.5rem;
     font-weight: 300;
@@ -144,7 +144,7 @@
     box-shadow: 0px 0px 10px #00000040;
   }
 
-  .btn-2 {
+  .btn_2 {
     background-color: inherit;
     color: black;
     display: flex;
